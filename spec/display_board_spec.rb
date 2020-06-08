@@ -184,7 +184,7 @@ describe "#display_board in 'lib/display_board.rb" do
       # example's situation.
 
 
-      board = ["O", "O", "O", "O", "O", "O" "O", "O", "O"] # This is not correct
+      board = ["O", "O", "O", "O", "O", "O", "O", "O", "O"] # This is not correct
 
       output = capture_puts{ display_board(board) } if defined?(display_board)
       rows = output.split("\n")
